@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".HomeActivity">
+
+    <TextView
+        style="@style/MusicCategoryStyle"
+        android:id="@+id/now_playing"
+        android:text="@string/now_playing"/>
+
+    <TextView
+        style="@style/MusicCategoryStyle"
+        android:id="@+id/all_songs"
+        android:text="@string/all_songs"/>
+
+    <TextView
+        style="@style/MusicCategoryStyle"
+        android:id="@+id/albums"
+        android:text="@string/albums"/>
+
+    <TextView
+        style="@style/MusicCategoryStyle"
+        android:id="@+id/artists"
+        android:text="@string/artists"/>
+
+    <TextView
+        style="@style/MusicCategoryStyle"
+        android:id="@+id/playlists"
+        android:text="@string/play_lists"/>
+
+    <TextView
+        style="@style/MusicCategoryStyle"
+        android:id="@+id/store"
+        android:text="@string/store"/>
+
+</LinearLayout>
